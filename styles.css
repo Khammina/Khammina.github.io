@@ -403,6 +403,8 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   color: var(--color-muted); transition: all var(--transition);
 }
 .social-icon:hover { border-color: var(--color-accent); color: var(--color-accent); background: rgba(0,210,255,0.08); transform: translateY(-3px); }
+.social-icon--whatsapp { border-color: rgba(37,211,102,0.3); color: #25d366; }
+.social-icon--whatsapp:hover { border-color: #25d366; color: #25d366; background: rgba(37,211,102,0.12); }
 
 .scroll-indicator {
   position: absolute; bottom: 2.5rem; left: 50%;
@@ -726,6 +728,13 @@ a.contact-value:hover { color: var(--color-accent); }
   color: var(--color-muted); transition: all var(--transition);
 }
 .social-link-btn:hover { border-color: var(--color-accent); color: var(--color-accent); background: rgba(0,210,255,0.08); transform: translateY(-3px); }
+
+/* WhatsApp specific styling */
+.contact-icon--whatsapp { background: rgba(37,211,102,0.08); border-color: rgba(37,211,102,0.25); color: #25d366; }
+.contact-value--whatsapp { color: #25d366; }
+.contact-value--whatsapp:hover { color: #1ebe5d !important; }
+.social-link-btn--whatsapp { border-color: rgba(37,211,102,0.25); color: #25d366; }
+.social-link-btn--whatsapp:hover { border-color: #25d366; color: #25d366; background: rgba(37,211,102,0.12); transform: translateY(-3px); }
 
 .contact-form { padding: 2rem; display: flex; flex-direction: column; gap: 1.25rem; }
 .form-group { display: flex; flex-direction: column; gap: 0.4rem; }
